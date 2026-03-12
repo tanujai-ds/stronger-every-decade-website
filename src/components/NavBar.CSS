@@ -1,0 +1,65 @@
+/* Import Professional Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap');
+
+/* ── Enhanced Fonts Only ─────────────────────────────────────── */
+
+/* All text elements */
+* {
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Logo Main Text */
+.navbar__logo-main {
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.12em;
+}
+
+/* Logo Sub Text */
+.navbar__logo-sub {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+/* Navigation Links */
+.navbar__link,
+.navbar__link-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+.navbar__link--active {
+  font-weight: 700;
+}
+
+/* CTA Button Text */
+.navbar__cta,
+.navbar__cta-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+/* Mobile Links */
+.navbar__mobile-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+}
+
+/* Mobile CTA */
+.navbar__mobile-cta {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+
+/* ── Keep Everything Else As-Is ──────────────────────────────── */
